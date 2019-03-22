@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>Html Final Project Excercise - Contact Page</title>
+
+	</head>
+
+	<body>
+
+		<header>
+
+			<img style="height: 60px" src="logo.jpg">
+			<img style="width: 400px" src="banner.jpg">
+			
+		</header>
+
+		<nav>
+			<a href="index.html">Home</a> &nbsp; &nbsp; &nbsp; 
+	        <a href="about.html">About us</a> &nbsp; &nbsp; &nbsp; 
+	        <a href="contact.html">Contact</a>
+		</nav>
+
+		<aside>
+			<h3>Sidebar</h3>
+		</aside>
+
+		<main>
+			
+			<h1 class="page-heading">Contact Us</h1>
+       
+			<div id="form">
+          
+				<form method="post" action="process.php">
+              
+					<p>
+					<label for="name">Name:</label>
+					<input type="text" name="name" placeholder="Your Name" required>             
+					</p>
+              
+					<p>
+					<label for="name">Email:</label>
+					<input type="text" name="email" required>
+					</p>
+              
+					<label for="name">Subject:</label>
+					<input type="text" name="subject" required>
+                  
+					<p> 
+					<label for="message"></label>
+					<textarea id="message" name="body" id="" cols="30" rows="10" required></textarea>
+					</p> 
+              
+					<p>
+					<input id="submit" type="submit" name="submit" value="Send Message">
+					</p>
+				</form>
+
+			</div>
+
+		</main>
+
+		<footer>
+        	&copy; 2019 HTML Website Final Project &nbsp;<span class="separator">|</span> Design by <a href="#">Enter Your Name</a>
+		</footer>
+
+	</body>
+</html>
